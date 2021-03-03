@@ -1,0 +1,149 @@
+{
+  "inputs": {
+    "_snowpack/env.js": {
+      "bytes": 97,
+      "imports": []
+    },
+    "dist/App.svelte.css": {
+      "bytes": 55,
+      "imports": []
+    },
+    "_snowpack/pkg/common/index-c50db2f3.js": {
+      "bytes": 8225,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte/internal.js": {
+      "bytes": 284,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-c50db2f3.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/svelte.js": {
+      "bytes": 59,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-c50db2f3.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/main.css": {
+      "bytes": 13387,
+      "imports": []
+    },
+    "dist/components/Header.svelte.css": {
+      "bytes": 1493,
+      "imports": []
+    },
+    "dist/components/Header.svelte.js": {
+      "bytes": 994,
+      "imports": [
+        {
+          "path": "dist/components/Header.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/App.svelte.js": {
+      "bytes": 4235,
+      "imports": [
+        {
+          "path": "dist/App.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/main.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/Header.svelte.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/index.js": {
+      "bytes": 394,
+      "imports": [
+        {
+          "path": "_snowpack/env.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/App.svelte.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/dist/index.js": {
+      "imports": [],
+      "exports": [
+        "default"
+      ],
+      "inputs": {
+        "_snowpack/env.js": {
+          "bytesInOutput": 91
+        },
+        "dist/App.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/common/index-c50db2f3.js": {
+          "bytesInOutput": 2855
+        },
+        "_snowpack/pkg/svelte/internal.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/svelte.js": {
+          "bytesInOutput": 0
+        },
+        "dist/main.css": {
+          "bytesInOutput": 0
+        },
+        "dist/components/Header.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "dist/components/Header.svelte.js": {
+          "bytesInOutput": 459
+        },
+        "dist/App.svelte.js": {
+          "bytesInOutput": 3057
+        },
+        "dist/index.js": {
+          "bytesInOutput": 61
+        }
+      },
+      "bytes": 6636
+    },
+    "../~~bundle~~/dist/index.css": {
+      "imports": [],
+      "inputs": {
+        "dist/App.svelte.css": {
+          "bytesInOutput": 53
+        },
+        "dist/main.css": {
+          "bytesInOutput": 5057
+        },
+        "dist/components/Header.svelte.css": {
+          "bytesInOutput": 1130
+        }
+      },
+      "bytes": 6324
+    }
+  }
+}
