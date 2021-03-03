@@ -1,6 +1,6 @@
-# New Project
+# ModStack
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+> ✨ A Modern Front End Snowpack preset for Svelte w/ TypeScript & TailwindCSS
 
 ## Available Scripts
 
