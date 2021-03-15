@@ -23,10 +23,11 @@ module.exports = {
     target: "es2020",
   },
   packageOptions: {
-    /* ... */
+    installTypes: true,
+    polyfillNode: true,
   },
   devOptions: {
-    /* ... */
+    port: 5000
   },
   buildOptions: {
     clean: true,
